@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterWindow</class>
+ <widget class="QDialog" name="RegisterWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>894</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="Gender">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>350</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Gender</string>
+   </property>
+   <widget class="QRadioButton" name="Male_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>110</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Male </string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Female_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>110</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Female </string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="Account_Type_GroupBox">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>360</y>
+     <width>120</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Account Type </string>
+   </property>
+   <widget class="QRadioButton" name="User_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>110</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>User</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Admin_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>110</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Admin</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="Favourite_Genre_GroupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>511</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Favourite genre(s)</string>
+   </property>
+   <widget class="QCheckBox" name="Action_CheckBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>91</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Action</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Romance_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>91</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Romance</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Drama_CheckBox">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>30</y>
+      <width>91</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Drama</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Comedy_CheckBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>91</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Comedy</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Other_3">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>90</y>
+      <width>91</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Other</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Horro_CheckBox">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>60</y>
+      <width>91</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Horror</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="Username_label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Username</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Password_label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ReTypPassword_label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Re-type Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>50</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>120</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>180</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="AlreadyExisting_label_4">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>50</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="NotMatching_label_5">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>180</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="DateofBirth_groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>541</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Date of Birth</string>
+   </property>
+   <widget class="QLabel" name="Month_label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Month</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Day_label_9">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Day</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Year_label_10">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Year</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Month_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>111</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Jan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Feb</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>March</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>April</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>May</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>June</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>July</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>August</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sep</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Oct</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nove</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dec</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>50</y>
+      <width>113</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Year_lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>50</y>
+      <width>113</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>Day_label_9</zorder>
+   <zorder>Month_label_8</zorder>
+   <zorder>Year_label_10</zorder>
+   <zorder>Month_comboBox</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>Year_lineEdit_5</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
