@@ -3,7 +3,7 @@
 #include "loginwidow.h"
 #include "Users.h"
 
-welcomewindow::welcomewindow( QWidget *parent, QString username, QString age)
+welcomewindow::welcomewindow( QWidget *parent, QString username, int age)
      :QDialog(parent)
     , ui(new Ui::welcomewindow)
 {
@@ -20,8 +20,8 @@ welcomewindow::welcomewindow( QWidget *parent, QString username, QString age)
     // Check if ui->Hello_label_2 is not null before accessing it
     if (ui->Hello_label_2) {
         // Set the text of the label
-        //QString str = QString ::number(age);
-        ui->Hello_label_2->setText("Hello " + username + " " + age);
+        QString str = QString ::number(age);
+        ui->Hello_label_2->setText("Hello " + username + " " + str);
     }
     else {
         // Print an error message if ui->Hello_label_2 is null

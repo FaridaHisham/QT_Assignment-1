@@ -35,7 +35,7 @@ void loginwidow::on_login_pushButton_clicked()
     for (int i=0; i<sizeof(usernames); ++i)
     {
 
-        if(username==usernames[i] && password==passwords[i])
+        if(username==usernames[i] && password==passwords[i] && username!="" && password!="")
         {
             qDebug() << "Login successful for user:" << username;
 
@@ -44,7 +44,7 @@ void loginwidow::on_login_pushButton_clicked()
             hide();
 
 
-           welcomewindow = new class welcomewindow(this, username, "15");
+           welcomewindow = new class welcomewindow(this, username, ages[i]);
            welcomewindow->show();
 
             correct_user = true;
@@ -66,6 +66,7 @@ void loginwidow::on_login_pushButton_clicked()
 
 void loginwidow::on_Register_pushButton_2_clicked()
 {
+    hide();
     RegisterWindow* registerwindow = new RegisterWindow(this);
     registerwindow->show();
 }

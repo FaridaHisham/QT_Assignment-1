@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>626</width>
-    <height>717</height>
+    <width>829</width>
+    <height>720</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -262,7 +262,7 @@
     <rect>
      <x>20</x>
      <y>240</y>
-     <width>591</width>
+     <width>661</width>
      <height>81</height>
     </rect>
    </property>
@@ -408,7 +408,7 @@
      <rect>
       <x>490</x>
       <y>60</y>
-      <width>111</width>
+      <width>161</width>
       <height>16</height>
      </rect>
     </property>
@@ -427,14 +427,14 @@
   <widget class="QLabel" name="label_Repassword">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>190</y>
-     <width>71</width>
-     <height>16</height>
+     <x>290</x>
+     <y>180</y>
+     <width>171</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;Not matching&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;*Not matching&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
@@ -453,14 +453,14 @@
   <widget class="QLabel" name="label_errorusername">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>60</y>
-     <width>101</width>
-     <height>16</height>
+     <x>290</x>
+     <y>50</y>
+     <width>191</width>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;Already Exisitng&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;*Already Exisitng&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_register">
@@ -468,12 +468,12 @@
     <rect>
      <x>190</x>
      <y>600</y>
-     <width>161</width>
+     <width>351</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;* ALl fields must be filled &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;* All fields must be filled &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
